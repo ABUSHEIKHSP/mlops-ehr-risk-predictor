@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment secrets
+.env
+*.env
+
+# MLflow artifacts
+mlruns/*
+!mlruns/.gitkeep  # Allows folder structure to exist, but keeps it empty in repo
+
+# Docker artifacts
+*.tar
+
+# VSCode
+.vscode/
+
+# Build artifacts
+*.pkl
+*.joblib
+artifacts/
+models/
+
+# Testing
+.pytest_cache/
+.cache/
+

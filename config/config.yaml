@@ -1,0 +1,21 @@
+data:
+  path: data/heart.csv
+  target_column: HeartDisease
+  test_size: 0.2
+  random_state: 42
+
+model:
+  model_type: RandomForestClassifier
+  model_module: sklearn.ensemble
+  model_params:
+    n_estimators: 100
+    max_depth: 5
+    random_state: 42
+
+mlflow:
+  experiment_name: ehr-risk-experiment
+  tracking_uri: mlruns
+  model_name: ehr_model
+  alias_name: Champion
+  metric: f1
+
