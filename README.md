@@ -161,10 +161,10 @@ PYTHONPATH=. pytest
 
 ```bash
 # Build Docker image
-docker build -t ehr-risk-api .
+sudo docker build -t ehr-risk-api .
 
 # Run container
-docker run -p 8000:8000 ehr-risk-api
+sudo docker run -p 8000:8000 ehr-risk-api
 ```
 ---
 
