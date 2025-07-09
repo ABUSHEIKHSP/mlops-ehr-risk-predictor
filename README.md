@@ -55,6 +55,33 @@ ehr-risk-predictor-mlops/
 
 ---
 
+## ⚙️ System Dependencies
+
+```markdown
+> ⚠️ **Note for Linux users**: MLflow requires Java (JDK). Make sure to install it before running the project.
+```
+
+### 🐧 Ubuntu / Debian
+
+```bash
+sudo apt update
+sudo apt install -y default-jdk
+```
+### 🧩 Arch / Manjaro
+
+```bash
+sudo pacman -Syu jdk-openjdk
+```
+---
+
+## 📊 Dataset Used
+
+We used the [Heart Disease UCI dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) from Kaggle.
+
+You can replace it with any dataset, just update the config.yaml.
+
+---
+
 ## 📦 Installation
 
 ```bash
