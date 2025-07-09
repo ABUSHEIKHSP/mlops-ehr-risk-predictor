@@ -38,3 +38,7 @@ models/
 .pytest_cache/
 .cache/
 
+# Other files
+.python-version
+autosklearn env steps.txt
+
