@@ -59,7 +59,7 @@ ehr-risk-predictor-mlops/
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/mlops-ehr-risk-predictor.git
+git clone https://github.com/ABUSHEIKHSP/mlops-ehr-risk-predictor.git
 cd ehr-risk-predictor-mlops
 
 # Create virtual environment
